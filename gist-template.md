@@ -56,4 +56,4 @@ For {}, we re looking for 2-6 characters
 ## Author
 Hey  👋🏽
 
-I'm Joel, and I'm a novice Developer. I love leanring more about this worl and growng everyday.
+I'm Joel, and I'm a novice Developer. You can find me at
