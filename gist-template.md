@@ -1,9 +1,13 @@
-# Title (replace with your title)
+# EMAIL MATCHING REGEX
 
-We 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will review the following regex: 
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
+The purpose of this regex to pick out any email address.
+
 
 ## Table of Contents
 
@@ -23,25 +27,31 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Anchors
 
+In this example the ANCHORS are ^ and $
+
+
 ### Quantifiers
+
+In this exaple the QUANTIFIER is /d
+
 
 ### OR Operator
 
 ### Character Classes
 
-### Flags
+This example uses 3 differnt groups to process the username, domain name, and domain extension. Please see below.
 
-### Grouping and Capturing
+1. [a-z0-9_\.-]
+2. [\da-z\.-]
+3. [a-z\.]
 
-### Bracket Expressions
 
 ### Greedy and Lazy Match
 
-### Boundaries
+This example uses the Greedy matches + and {}
 
-### Back-references
+For {}, we re looking for 2-6 characters
 
-### Look-ahead and Look-behind
 
 ## Author
 Hey  👋🏽
